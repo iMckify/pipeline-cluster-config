@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: iMckify
+    provider: github
+    repository: react-spring
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: imckify-react-spring
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/iMckify/react-spring.git
+  org: iMckify
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: react-spring
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/iMckify/react-spring

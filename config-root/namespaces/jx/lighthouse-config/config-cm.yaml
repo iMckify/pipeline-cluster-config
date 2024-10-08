@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         iMckify/pipeline-cluster-config: true
+        iMckify/react-spring: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -20,6 +21,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         iMckify/pipeline-cluster-config: merge
+        iMckify/react-spring: merge
       queries:
       - labels:
         - approved
@@ -31,6 +33,7 @@ data:
         - needs-rebase
         repos:
         - iMckify/pipeline-cluster-config
+        - iMckify/react-spring
       - labels:
         - updatebot
         missingLabels:
@@ -41,6 +44,7 @@ data:
         - needs-rebase
         repos:
         - iMckify/pipeline-cluster-config
+        - iMckify/react-spring
       target_url: http://lighthouse-jx.192.168.49.2.nip.io/merge/status
 kind: ConfigMap
 metadata:
