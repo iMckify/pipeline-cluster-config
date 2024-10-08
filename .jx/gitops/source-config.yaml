@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: pipeline-cluster-config
     - name: react-spring
     scheduler: in-repo
   slack:
