@@ -47,6 +47,7 @@ jxRequirements:
       production: false
   pipelineUser:
     username: iMckify
+    email: rokas.mockevicius@gmail.com
   repository: bucketrepo
   secretStorage: local
   vault: {}
