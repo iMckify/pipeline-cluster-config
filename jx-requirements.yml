@@ -16,6 +16,8 @@ spec:
     provider: minikube
   environments:
   - key: dev
+    owner: iMckify
+    repository: pipeline-cluster-config
   - key: staging
   - key: production
   ingress:
@@ -26,6 +28,8 @@ spec:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: iMckify
   repository: bucketrepo
   secretStorage: local
   vault: {}
