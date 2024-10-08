@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: iMckify
+    provider: github
+    repository: pipeline-cluster-config
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: imckify-pipeline-cluster-config
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/iMckify/pipeline-cluster-config.git
+  org: iMckify
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: pipeline-cluster-config
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/iMckify/pipeline-cluster-config

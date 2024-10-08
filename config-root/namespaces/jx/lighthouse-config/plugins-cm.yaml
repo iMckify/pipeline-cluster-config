@@ -8,6 +8,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - iMckify/pipeline-cluster-config
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - iMckify/react-spring
       require_self_approval: true
     cat: {}
@@ -72,6 +76,9 @@ data:
       xl: 0
       xxl: 0
     triggers:
+    - repos:
+      - iMckify/pipeline-cluster-config
+      trusted_org: iMckify
     - repos:
       - iMckify/pipeline-cluster-config
       trusted_org: iMckify
