@@ -20,4 +20,4 @@ spec:
             port:
               number: 80
         path: "/hook"
-    host: 37f1-5-20-187-22.ngrok-free.app
+    host: sharp-sunny-elephant.ngrok-free.app
