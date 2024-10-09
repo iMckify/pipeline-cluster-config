@@ -1,0 +1,11 @@
+filepath: ""
+namespace: jx-staging
+repositories:
+- name: dev
+  url: http://bucketrepo-jx.192.168.49.2.nip.io
+releases:
+- chart: dev/react-spring
+  version: 0.0.13
+  name: react-spring
+templates: {}
+renderedvalues: {}
